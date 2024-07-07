@@ -1,0 +1,36 @@
+td{
+	text-align: center;
+	border: 1px solid gray;
+}
+
+
+#box1{
+	color: skyblue;
+	font-weight: 800;
+}
+
+#box2{
+    color: orange;
+    font-weight: 800;
+}
+
+#box3{
+    color: violet;
+    font-weight: 800;
+
+}
+
+#box4{
+    color: green;
+    font-weight: 800;
+}
+
+#box5{
+    color:red;
+    font-weight: 800;
+}
+
+
+#bolt{
+    font-weight: 800;
+}
