@@ -1,0 +1,22 @@
+ol,ul{
+    border: 1px solid grey;
+    width: 15%;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: orangered;
+}
+
+li{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+
+li:hover{
+    background-color: green;
+}
