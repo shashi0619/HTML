@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <form name="regForm">
+            <table>
+                <!-- FIRST NAME-->
+                <tr>
+                    <td>FirstName</td>
+                    <td>
+                        <input type="text" name="fname" placeholder="enter firt name">
+                    </td>
+                    <td>
+                        <span>(***please enter valid firstname***)</span>
+                    </td>
+                </tr>
+
+                <!-- LASt NAME-->
+                <tr>
+                    <td>LastName</td>
+                    <td>
+                        <input type="text" name="lname" placeholder="enter Last name">
+                    </td>
+                    <td>
+                        <span>(***please enter valid Lastname***)</span>
+                    </td>
+                </tr>
+                <!-- Password-->
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" name="ps" placeholder="enter password">
+                    </td>
+                    <td>
+                        <span>(***please enter valid password***)</span>
+                    </td>
+                </tr>
+
+                <!-- Confirm Password-->
+                <tr>
+                    <td> Confirm Password</td>
+                    <td>
+                        <input type="password" name="cps" placeholder="enter confirm password">
+                    </td>
+                    <td>
+                        <span>(***password and confirm password should be the same***)</span>
+                    </td>
+                </tr>
+
+                <!--Email-->
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="em" placeholder="enter your email id">
+                    </td>
+                    <td>
+                        <span>(***please enter a valid email id***)</span>
+                    </td>
+                </tr>
+
+                <!-- Age-->
+                <tr>
+                    <td>Age</td>
+                    <td>
+                        <input type="number" name="age" placeholder="enter age">
+                    </td>
+                    <td>
+                        <span>(***enter valid age***)</span>
+                    </td>
+                </tr>
+
+                <!-- Mobile number-->
+                <tr>
+                    <td>Mobile Number</td>
+                    <td>
+                        <input type="tel" name="Mobile" placeholder="enter mobile number">
+                    </td>
+                    <td>
+                        <span>(***enter valid mobile number***)</span>
+                    </td>
+                </tr>
+
+                <!--Date-->
+                <tr>
+                    <td>DOB</td>
+                    <td>
+                        <input type="date" name="dob" placeholder="enter date of birth">
+                    </td>
+                    <td>
+                        <span>(***enter valid DOB***)</span>
+                    </td>
+                </tr>
+
+                <!-- time-->
+                <tr>
+                    <td> Preffered Time</td>
+                    <td>
+                        <input type="time" name="ptime" placeholder="enter your Preffered time">
+                    </td>
+                    <td>
+                        <span>(***enter valid time***)</span>
+                    </td>
+                </tr>
+
+                <!-- Color-->
+                <tr>
+                    <td>Choice your favourite color</td>
+                    <td>
+                        <input type="color" name="fcolor" placeholder="enter your favourite color">
+                    </td>
+                    <td>
+                        <span>(***enter valid color code***)</span>
+                    </td>
+                </tr>
+
+
+                <!-- GENDER -->
+                 <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                    <td>
+                        <span>(***Select gender***)</span>
+                    </td>
+                 </tr>
+
+                 <!-- LANGUAGES -->
+                 <tr>
+                    <td>Languages</td>
+                    <td>
+                        <input type="checkbox" name="languages" value="C">C Lang
+                        <input type="checkbox" name="languages" value="C++">CPP
+                    </td>
+                    <td>
+                        <span>(***select languages***)</span>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="languages" value="java">Java Lang
+                        <input type="checkbox" name="languages" value="React">ReactJS
+                    </td>
+                    <td></td>
+                 </tr>
+
+                 <!-- COUNTRIES -->
+                  <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country">
+                            <option value="">select country</option>
+                            <option value="ind">India</option>
+                            <option value="pak">Pakistan</option>
+                            <option value="chn">China</option>
+                            <option value="sri">Srilanka</option>
+                        </select>
+                    </td>
+                    <td>
+                        <span>(***Select country***)</span>
+                    </td>
+                  </tr>
+
+                  <!-- ADDRESS -->
+                  <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="addr"></textarea>
+                    </td>
+                    <td>
+                        <span>(***enter 50 characters only***)</span>
+                    </td>
+                  </tr>
+
+                  <!-- SUBMIT & RESET -->
+                   <tr>
+                      <td>
+                        <input type="submit" value="Save">
+                      </td>
+                      <td>
+                        <input type="reset" value="Clear">
+                      </td>
+                      <td></td>
+                   </tr>
+
+
+
+            </table>
+        </form>
+    </body>
+</html>

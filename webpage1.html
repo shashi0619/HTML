@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style >
+		
+		.parent{
+			background: white;
+             padding-right: 15px;
+             padding-left: 15p;
+             height: 15vh;
+             border: 1px solid grey;
+		}
+		.child{
+			display: flex;
+            align-items: center;
+            justify-content: space-between;
+		}
+		
+		
+		li{
+			list-style: none;
+             display: inline-block;
+		}
+		li a{
+			color: black;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 25px;
+		}
+		button{
+			background-color: #1c92ec;
+            margin-left: 10px; 
+            border-radius: 10px; 
+            padding: 10px; 
+            width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">
+			<img src="logo2.png" width="280px" height="80px" alt="error">
+			<ul>
+				<li><a class="fa fa-home" href=""> <b>Home</b></a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Course</a></li>
+				<button><a href="#">Login</a></button>
+				
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
