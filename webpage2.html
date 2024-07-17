@@ -4,25 +4,41 @@
    
     <title>Web page</title>
     <style>
-        table{
+        .parent{
             display: flex;
             justify-content: center; 
-            align-items: center;    
-            height: 100vh; 
+            
+        }
+        img{
+            flex: 1;
+            height: 500px;
+            width: 50px;
+            
+        }
+        .C1{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 20px;
         }
     </style>
 
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="prabhas.png" alt="prabhas photo" height="250px" width="250px"></td>
-            <td><h1>prabhas kalki</h1></td>
-        </tr>
-    </table>
-   
+    <div class="parent">
+        <img src="prabhas.png" alt="Error">
+        <div class="c1">
+            <P>Iam from ExcelR 👏</P>
+            <P>related to FullStack</P>
+            <P> Hyderabad</P>
+            <P>Telangana</P>
 
-    
+        </div>
+
+    </div>
     
 </body>
 </html>

@@ -16,7 +16,7 @@ $mobile : 576px;
     &__logo{
         margin-left: 5px;
         &__img{
-            width: 8vw;
+            width: 20vw;
         }
     }
     &__menu{
@@ -37,7 +37,7 @@ a:hover{
     display: flex;
     &__profile{
         flex: 1;
-        background-image: url("./amazon.png");
+        background-image: url("./prabhas.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left center;

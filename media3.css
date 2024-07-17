@@ -18,7 +18,7 @@
   margin-left: 5px;
 }
 .header__logo__img {
-  width: 8vw;
+  width: 20vw;
 }
 .header__menu {
   margin-right: 5px;
@@ -41,7 +41,7 @@ a:hover {
 }
 .main__profile {
   flex: 1;
-  background-image: url("./amazon.png");
+  background-image: url("./prabhas.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
