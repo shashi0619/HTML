@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcyan;
+}
+.header__logo {
+  font-size: 4vw;
+}
+.header__menu {
+  display: flex;
+  gap: 20px;
+  font-size: 2vw;
+}
+.header a {
+  text-decoration: none;
+}
+
+.main {
+  height: 80%;
+}
+
+.footer {
+  height: 80%;
+}
+
+@media (max-width: 576px) {
+  .header {
+    justify-content: center;
+    align-items: center;
+  }
+  .header__menu {
+    display: none;
+  }
+}/*# sourceMappingURL=media2.css.map */
