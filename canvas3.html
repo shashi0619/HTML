@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>canvas</title>
+</head>
+<body>
+    <canvas id="mycanvas" width="200" height="100" style="border: 1px solid red;"></canvas>
+
+    <script>
+        let ref = document.getElementById("mycanvas");
+        let ctx = ref.getContext("2d");
+
+        ctx.moveTo(100,0);
+        ctx.lineTo(0,100);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(100,50,40,0,2*Math.PI);
+        ctx.stroke();
+        
+    
+    </script>
+</body>
+</html>
